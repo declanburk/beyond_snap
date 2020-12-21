@@ -16,7 +16,7 @@ cp min_snap_coefficients.csv ../utils && cd ../utils
 python3 read_coefficients.py
 ```
 ## Using the SnapMinimiser class
-The SnapMinimiser class can be used to generate minimum snap trajectories. Create the object and specify the number of waypoints in the trajectory as well as setting a debug flag (set to true for verbose output).
+<!-- The SnapMinimiser class can be used to generate minimum snap trajectories. Create the object and specify the number of waypoints in the trajectory as well as setting a debug flag (set to true for verbose output).
 ```
 int K = 5;
 bool debug = false;
@@ -36,4 +36,4 @@ test_snap.solve_minimisation();
 // Pointer to array with spline coefficeints. Here I'm using s=5.
 VectorP<5> *P = test_snap.get_P();
 ```
-Each element of the array is a `VectorP<s>` object, which contains the coefficients of the corresponding polynomial segment. The coefficients are indexed from order *0* to *2s*.
+Each element of the array is a `VectorP<s>` object, which contains the coefficients of the corresponding polynomial segment. The coefficients are indexed from order *0* to *2s*. -->
